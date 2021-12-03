@@ -1,0 +1,53 @@
+.about{
+        background-color: $F6FFF5;
+
+        @include media-breakpoint-up(xxl) {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+        
+        @include media-breakpoint-up(lg) {
+                padding-top: 80px;
+                padding-bottom: 80px;
+        }
+            
+        @include media-breakpoint-down(lg) {
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 40px;
+        }
+}
+
+.about-text{
+        @include media-breakpoint-up(xxl) {
+                padding-top: 140px;
+        }
+        
+        @include media-breakpoint-up(lg) {
+                padding-top: 100px;
+        }
+            
+        @include media-breakpoint-down(lg) {
+                text-align: center;
+                padding-top: 30px;
+        }
+}
+
+.center{
+        @include media-breakpoint-down(lg) {
+                text-align: center;
+            }
+}
+.img-about{
+        @include media-breakpoint-down(lg) {
+                width: 80%;
+            }
+        
+        @include media-breakpoint-up(xl) {
+                width: 83%;
+        }
+
+        @include media-breakpoint-up(xxl) {
+                width: 85%;
+        }
+}

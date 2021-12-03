@@ -1,0 +1,39 @@
+.hero {
+    background-color: $E6FFE5;
+    
+    @include media-breakpoint-down(lg) {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
+    @include media-breakpoint-up(lg) {
+        padding-top: 125px;
+        padding-bottom: 80px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    } 
+}
+
+.img-hero{
+    @include media-breakpoint-down(lg) {
+        width: 80%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 83%;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        width: 85%;
+    }
+}
+
+.hero-text{
+    @include media-breakpoint-down(lg) {
+        margin-top: 20px;
+    }
+}

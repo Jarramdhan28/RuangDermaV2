@@ -1,0 +1,18 @@
+.goods{
+        background-color: $E6FFE5;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        @include media-breakpoint-down(lg){
+                padding-bottom: 50px;
+                align-items: center;
+        }
+}
+
+.p-goods{
+        padding-bottom: 30px;
+
+        @include media-breakpoint-only(xs){
+                width: 60%;
+        }
+}
